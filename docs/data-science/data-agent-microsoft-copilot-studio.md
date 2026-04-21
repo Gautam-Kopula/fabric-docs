@@ -11,9 +11,13 @@ ms.collection: ce-skilling-ai-copilot
 
 # Consume a Fabric Data Agent in Microsoft Copilot Studio (preview)
 
-Microsoft Copilot Studio is a graphical, low-code platform for building custom AI agents that understand natural language, answer user inquiries, and perform actions such as automating tasks. These agents can then be deployed across channels such as Microsoft Teams, websites, and Microsoft 365 Copilot.
+//Teams as the only Channel supported//
+Microsoft Copilot Studio is a graphical, low-code platform for building custom AI agents that understand natural language, answer user inquiries, and perform actions such as automating tasks. 
 
 One of the ways to consume a Fabric data agent is by adding it to a custom AI agent in Microsoft Copilot Studio as a connected agent. This connected agents setup enables agent-to-agent collaboration, allowing the custom AI agent in Copilot Studio to securely access enterprise data through the Fabric data agent and ground its responses in organizational knowledge for improved accuracy, relevance, and context.
+
+> [!NOTE]
+   > Consuming Fabric Data Agent via Microsoft Copilot Studio as a connected agent is only supported through Microsoft Teams as the deployment channel.
 
 [!INCLUDE [feature-preview](../includes/feature-preview-note.md)]
 
